@@ -85,6 +85,11 @@ body {
     box-sizing: border-box;
 }
 
+.para_heading {
+    font-family: "Playfair";
+    font-size: 1.8rem;
+}
+
 .eval {
     height: 100%;
     color: #969690;
