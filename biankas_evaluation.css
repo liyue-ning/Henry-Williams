@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg {
+    background-image: url(bianka_bg.jpg);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0f162f;
+}
+
+.blur_bg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    background-color: #8c8c8d0c;
+}
+
+.homepage_link {
+    user-select: none;
+    position: absolute;
+    top: 15px;
+    left: 27px;
+    pointer-events: auto;
+    font-family: 'Montserrat', 'Impact';
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.homepage_link:hover {
+    transform: scale(1.1);
+    transform-origin: top;
+}
+
+.homepage_link a, .homepage_link a:visited, .homepage_link a:active {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.eval_heading_BIANKAS {
+    user-select: none;
+    position: absolute;
+    top: 9%;
+    left: 42%;
+    font-family: "Playfair", "Anton";
+    font-weight: 900;
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 0 0 10px #0a0a0a7b;
+}
+
+.eval_heading_EVAL {
+    user-select: none;
+    position: absolute;
+    top: 48%;
+    left: 56%;
+    transform: rotate(90deg);
+    font-family: "Playfair", "Anton";
+    font-weight: 900;
+    font-size: 6rem;
+    color: #fff;
+    text-shadow: 0 0 10px #0a0a0a7b;
+}
+
+.eval_box {
+    position: absolute;
+    top: 20%;
+    left: 29%;
+    width: 650px;
+    height: 690px;
+    background: linear-gradient(to bottom,  #629e8a92 10%, #ffffff17 80%);
+    border-radius: 35px;
+    padding: 30px 35px 35px 35px;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px #0a0a0a;
+    box-sizing: border-box;
+}
+
+.eval {
+    height: 100%;
+    color: #787c8b;
+    box-sizing: border-box;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #e8e3d133 transparent;
+    font-family: "Montserrat", "Helvetica";
+    font-size: 0.9rem;
+}
